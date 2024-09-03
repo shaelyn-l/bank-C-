@@ -1,0 +1,15 @@
+Script started on Fri 24 Nov 2023 05:40:40 PM HST
+]0;shaelynl@uhx02:~/project2[?1034huhx02:/home/s/shaelynl/project2% exitmake -f release.makrm user_interface.o[9Pllist.omake -f debug.mak
+g++ -DDEBUG -ansi -pedantic-errors -Wall -c user_interface.cpp
+g++ -DDEBUG -ansi -pedantic-errors -Wall -c llist.cpp 
+g++ -o project_debug user_interface.o llist.o
+]0;shaelynl@uhx02:~/project2uhx02:/home/s/shaelynl/project2% make -f debug.makexit[Kmake -f release.makrm user_interface.o[9Pllist.o
+]0;shaelynl@uhx02:~/project2uhx02:/home/s/shaelynl/project2% rm llist.omake -f debug.makexit[Kmake -f release.makrm user_interface.o
+]0;shaelynl@uhx02:~/project2uhx02:/home/s/shaelynl/project2% rm user_interface.o[9Pllist.omake -f debug.makexit[Kmake -f release.mak
+g++ -ansi -pedantic-errors -Wall -c user_interface.cpp
+g++ -ansi -pedantic-errors -Wall -c llist.cpp                                                       
+g++ -o project user_interface.o llist.o
+]0;shaelynl@uhx02:~/project2uhx02:/home/s/shaelynl/project2% exit
+exit
+
+Script done on Fri 24 Nov 2023 05:41:05 PM HST
